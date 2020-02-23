@@ -24,7 +24,7 @@ public class Test {
 		
 		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("warang.rohan.11et1067@gmail.com");
 		driver.findElement(By.xpath("//span[text()='Next']")).click();
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("googlerocks@123");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("");
 		driver.findElement(By.xpath("//span[text()='Next']")).click();*/
 		
 		String authUrl = "https://rahulshettyacademy.com/getCourse.php?state=verifyfjdss&code=4/wQGRN6AFuMPpX82Kmr_syFSAeggu7XuulTNE2HDwoOVanK81f2Uo3eKZ0Jey1OCM0CGHn8EQ_vwTFQzmIgejt24&scope=email+https://www.googleapis.com/auth/userinfo.email+openid&authuser=0&prompt=none&session_state=59269ba0ce92b13f40d34b920e9e17d5f6ce787d..3f71";
